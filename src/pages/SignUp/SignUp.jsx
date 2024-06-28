@@ -93,7 +93,7 @@ const SignUp = () => {
                 padding: "10px 50px",
               }}
             >
-              SIGN UP
+              <a href="/login">SIGN UP</a>
             </button>
           </div>
         </form>

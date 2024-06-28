@@ -71,7 +71,7 @@ const Login = () => {
                 padding: "10px 50px",
               }}
             >
-              LOG IN
+              <a href="/header">LOG IN</a>
             </button>
           </div>
           <div className="d-flex flex-column align-items-center mt-4">
