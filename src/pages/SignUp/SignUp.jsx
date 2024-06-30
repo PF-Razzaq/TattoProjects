@@ -36,6 +36,7 @@ const SignUp = () => {
           </div>
           <div className="form-group">
             <input
+              className="signup-input"
               type="text"
               name="name"
               placeholder="NAME"
@@ -46,6 +47,7 @@ const SignUp = () => {
           </div>
           <div className="form-group mt-4">
             <input
+              className="signup-input"
               type="email"
               name="email"
               placeholder="EMAIL"
@@ -56,6 +58,7 @@ const SignUp = () => {
           </div>
           <div className="form-group mt-4">
             <input
+              className="signup-input"
               type="tel"
               name="phone"
               placeholder="PHONE NUMBER"
@@ -66,6 +69,7 @@ const SignUp = () => {
           </div>
           <div className="form-group mt-4">
             <input
+              className="signup-input"
               type="text"
               name="otp"
               placeholder="OTP"

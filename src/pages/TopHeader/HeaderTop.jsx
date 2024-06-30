@@ -1,9 +1,8 @@
 import React from "react";
 import Logo from "../../assets/images/logo.png";
-import BuyPlan from "../BuyPlan/BuyPlan";
 import "./Header.css";
 
-const Header = () => {
+const HeaderTop = () => {
   return (
     <>
       <div
@@ -13,14 +12,10 @@ const Header = () => {
         <div>
           <img src={Logo} alt="Logo" style={{ width: "200px" }} />
         </div>
-        <div>
-          <p>Enroll below subscription and get approved by super admin</p>
-        </div>
         <div className="profile mt-1"></div>
       </div>
-      <BuyPlan />
     </>
   );
 };
 
-export default Header;
+export default HeaderTop;

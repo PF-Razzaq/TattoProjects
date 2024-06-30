@@ -1,0 +1,275 @@
+.form-wrapper {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  padding: 30px 36px 80px;
+}
+
+@media (max-width: 991px) {
+  .form-wrapper {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .form-inner-wrapper {
+    max-width: 100%;
+  }
+}
+
+.main-content {
+  gap: 20px;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .main-content {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+
+.column-1 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 77%;
+  margin-left: 0px;
+}
+
+@media (max-width: 991px) {
+  .column-1 {
+    width: 100%;
+  }
+}
+
+.info-wrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  font-size: 14px;
+  color: #575757;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+@media (max-width: 991px) {
+  .info-wrapper {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.name-wrapper {
+  align-self: start;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+  .name-wrapper {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+.input {
+  color: black;
+  border-radius: 5px;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 5px;
+  margin: 20px;
+  width: 100%; /* Ensures inputs take full width */
+}
+
+@media (max-width: 991px) {
+  .input {
+    max-width: 100%;
+  }
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 23%;
+  margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+  .column-2 {
+    width: 100%;
+  }
+}
+
+.profile-image {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+  width: 139px;
+  max-width: 100%;
+}
+
+@media (max-width: 991px) {
+  .profile-image {
+    margin-top: 40px;
+  }
+}
+
+.contact-details,
+.address-details,
+.dob,
+.select-gender,
+.gender-option,
+.upload-documents,
+.business-name,
+.additional-info {
+  border-radius: 5px;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  color: #575757;
+  text-transform: capitalize;
+  font: 400 14px Ubuntu, sans-serif;
+  padding: 17px;
+  width: 100%; /* Ensures these sections take full width */
+}
+
+@media (max-width: 991px) {
+  .contact-details,
+  .address-details,
+  .dob,
+  .select-gender,
+  .gender-option,
+  .upload-documents,
+  .business-name,
+  .additional-info {
+    max-width: 100%;
+    padding-right: 20px;
+  }
+}
+
+.dob {
+  white-space: nowrap;
+}
+
+@media (max-width: 991px) {
+  .dob {
+    white-space: initial;
+  }
+}
+
+.gender-selection {
+  margin-right: 121px;
+  display: flex;
+  gap: 74px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media (max-width: 991px) {
+  .gender-selection {
+    flex-wrap: wrap;
+  }
+}
+
+.gender-option {
+  padding: 17px 31px;
+}
+
+@media (max-width: 991px) {
+  .gender-option {
+    white-space: initial;
+    padding: 0 20px;
+  }
+}
+
+.upload-documents {
+  align-self: start;
+  margin: 42px 0 0 17px;
+}
+
+@media (max-width: 991px) {
+  .upload-documents {
+    margin: 40px 0 0 10px;
+  }
+}
+
+.upload-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 31px 60px;
+  margin-top: 16px;
+}
+
+@media (max-width: 991px) {
+  .upload-wrapper {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.upload-image {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+  width: 23px;
+}
+
+.business-name {
+  align-self: start;
+  margin: 54px 0 0 17px;
+}
+
+@media (max-width: 991px) {
+  .business-name {
+    margin: 40px 0 0 10px;
+  }
+}
+
+.additional-info {
+  height: 45px;
+  margin-top: 9px;
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #1b3b35;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  width: 200px;
+}
+
+.gender-option {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.gender-option:hover {
+  border-color: #007bff;
+}
+
+.gender-option input[type="radio"] {
+  display: none;
+}
+
+.gender-option label {
+  margin-left: 10px;
+}
+
+.gender-option input[type="radio"]:checked + label {
+  font-weight: bold;
+  color: #007bff;
+}

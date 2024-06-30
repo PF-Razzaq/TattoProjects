@@ -1,0 +1,36 @@
+input {
+  width: 100px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-content {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upgrade-button {
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  color: #1b3b36;
+  border: none;
+  text-transform: uppercase;
+  justify-content: center;
+  padding: 16px;
+  font: 500 20px Ubuntu, sans-serif;
+}
+
+.plan-block {
+  width: 400px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  position: absolute;
+}
