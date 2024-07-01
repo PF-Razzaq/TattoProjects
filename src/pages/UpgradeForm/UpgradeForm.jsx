@@ -13,26 +13,26 @@ function UpgradeForm() {
                   type="text"
                   name="firstName"
                   placeholder="First name"
-                  className="input"
+                  className="upgrade-input"
                 />
                 <input
                   type="text"
                   name="lastName"
                   placeholder="Last name"
-                  className="input"
+                  className="upgrade-input"
                 />
               </div>
               <input
                 type="email"
                 name="email"
                 placeholder="Email"
-                className="input"
+                className="upgrade-input"
               />
               <input
                 type="text"
                 name="username"
                 placeholder="Username / Salesperson name"
-                className="input"
+                className="upgrade-input"
               />
             </div>
           </div>
@@ -50,15 +50,20 @@ function UpgradeForm() {
         type="text"
         name="contactDetails"
         placeholder="Contact details"
-        className="input"
+        className="upgrade-input"
       />
       <input
         type="text"
         name="addressDetails"
         placeholder="Address details"
-        className="input"
+        className="upgrade-input"
       />
-      <input type="date" name="dob" placeholder="DOB" className="input dob" />
+      <input
+        type="date"
+        name="dob"
+        placeholder="DOB"
+        className="upgrade-input dob"
+      />
 
       <div className="upload-documents">
         <label htmlFor="verification-documents">
@@ -68,14 +73,14 @@ function UpgradeForm() {
           type="file"
           id="verification-documents"
           name="verificationDocuments"
-          className="input"
+          className="upgrade-input"
         />
       </div>
       <input
         type="text"
         name="businessName"
         placeholder="Add business / Business name"
-        className="input"
+        className="upgrade-input"
       />
       <div className="additional-info"></div>
       <button type="submit" className="submit-button">

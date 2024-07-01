@@ -1,0 +1,85 @@
+.my-component {
+  width: 821px;
+}
+
+.box {
+  border-radius: 5px;
+}
+
+.content {
+  padding: 0 27px;
+}
+
+.header {
+  gap: 20px;
+}
+
+.title {
+  color: #000;
+  text-transform: capitalize;
+  font: 400 20px Ubuntu, sans-serif;
+}
+
+.search-box {
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 0px 10px;
+  font-size: 15px;
+  color: #575757;
+  font-weight: 300;
+}
+
+.search-text {
+  font-family: Ubuntu, sans-serif;
+}
+
+.img {
+  width: 15px;
+}
+
+.action-icon {
+  width: 20px;
+  fill: #000;
+}
+
+.targets {
+  font-size: 16px;
+  color: #575757;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.business-row .progress-bar {
+  height: 12px;
+}
+
+.business-row .description {
+  font-size: 12px;
+  color: #575757;
+  font: 400 12px Ubuntu, sans-serif;
+}
+
+.business-name {
+  margin-top: 5px;
+  color: #575757;
+  font: 400 16px Ubuntu, sans-serif;
+  text-transform: capitalize;
+  border-radius: 5px;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  width: 200px;
+}
+
+.notification-box {
+  margin-top: 7px;
+  gap: 14px;
+  font-size: 16px;
+  color: #575757;
+  font-weight: 400;
+}
+
+.notification-icon {
+  width: 26px;
+}
+
+.notification-text {
+  font-family: Ubuntu, sans-serif;
+}

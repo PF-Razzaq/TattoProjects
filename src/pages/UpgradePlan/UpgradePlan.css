@@ -1,4 +1,4 @@
-input {
+/* input {
   width: 100px;
   background-color: transparent;
   border: none;
@@ -7,7 +7,7 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 .accordion-content {
   padding: 10px;

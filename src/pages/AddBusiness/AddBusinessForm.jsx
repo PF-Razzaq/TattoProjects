@@ -5,8 +5,8 @@ import { FaArrowLeft } from "react-icons/fa";
 const AddBusinessForm = () => {
   return (
     <>
-      <div>
-        <div className="d-flex mt-5" style={{ marginLeft: "5rem" }}>
+      <div className="addBusinessFormMain mt-5 mb-5">
+        <div className="d-flex" style={{ marginLeft: "5rem" }}>
           <span className="me-3">
             <FaArrowLeft />
           </span>
@@ -142,7 +142,7 @@ const AddBusinessForm = () => {
                 </div>
               </div>
             </form>
-            <button className="btn btn-primary mt-5 mb-5" type="submit">
+            <button className="btn btn-primary mt-5" type="submit">
               SAVE
             </button>
           </form>
