@@ -1,0 +1,83 @@
+.card3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+  /* background-color: red; */
+  margin-top: 3%;
+  flex-direction: row;
+}
+
+.card3 .sec1 {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card3 .sec1 img {
+  width: 88px;
+  height: 88px;
+}
+
+.card3 .sec2 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  text-align: start;
+}
+
+.card3 .sec2 h4 {
+  /* margin-bottom: 10%; */
+  margin: 0;
+  padding: 0;
+}
+.card3 .sec2 p {
+  /* margin-bottom: 10%; */
+  font-size: 14px;
+}
+
+.card3 .sec3 {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card3 .sec3 > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card3 .sec3 img {
+  width: 21px;
+  height: 21px;
+  margin: 10px;
+}
+
+.card3 .sec3 .down h5 {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.social-icons {
+  width: 20px;
+  margin-bottom: 30px;
+}
+
+.up {
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.view-btn {
+  text-align: right;
+  padding: 5px 80px;
+  border: 1px solid black;
+}

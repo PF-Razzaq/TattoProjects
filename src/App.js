@@ -20,6 +20,7 @@ import BusinessDetail from "./pages/BusinessDetail/BusinessDetail";
 import AddBusiness from "./pages/AddBusiness/AddBusiness";
 import AddBusinessForm from "./pages/AddBusiness/AddBusinessForm";
 import Dashboard from "./pages/Dashboard/Dashboard";
+import ViewBusiness from "./pages/ViewBusiness/ViewBusiness";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path="/addbusiness" element={<AddBusiness />} />
           <Route path="/addBusinessForm" element={<AddBusinessForm />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/viewBusiness" element={<ViewBusiness />} />
         </Routes>
       </BrowserRouter>
     </>
