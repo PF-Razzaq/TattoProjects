@@ -1,0 +1,39 @@
+.file-upload-wrapper {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.file-upload {
+  opacity: 0;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.file-upload-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+  border: 2px solid #000;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: border-color 0.3s;
+}
+
+.file-upload-label:hover {
+  border-color: #007bff;
+}
+
+.bi-upload {
+  font-size: 24px;
+}

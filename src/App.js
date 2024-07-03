@@ -21,6 +21,8 @@ import AddBusiness from "./pages/AddBusiness/AddBusiness";
 import AddBusinessForm from "./pages/AddBusiness/AddBusinessForm";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import ViewBusiness from "./pages/ViewBusiness/ViewBusiness";
+import EditBusiness from "./pages/EditBusiness/EditBusiness";
+import BusinessExpense from "./pages/BusinessExpense/BusinessExpense";
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function App() {
           <Route path="/addBusinessForm" element={<AddBusinessForm />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/viewBusiness" element={<ViewBusiness />} />
+          <Route path="/editBusiness" element={<EditBusiness />} />
+          <Route path="/businessExpense" element={<BusinessExpense />} />
         </Routes>
       </BrowserRouter>
     </>
